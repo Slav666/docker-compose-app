@@ -1,0 +1,41 @@
+# Node.js dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables & secrets
+.env
+env/
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+backend/dist/
+frontend/build/
+frontend/.next/
+
+# Docker ignore
+docker-compose.override.yml
+docker-compose.override.*
+.dockerignore
+
+# Ignore local MongoDB data (if using locally)
+mongodb-data/
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
